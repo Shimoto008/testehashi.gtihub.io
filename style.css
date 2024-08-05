@@ -1,0 +1,98 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(97, 112, 146);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+    border: 3px solid rgb(29, 30, 82);
+    margin-bottom: 5px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(29, 30, 82);
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
+
+.play4{
+    background: -webkit-linear-gradient( #04439c, #07398d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spider{
+    background: -webkit-linear-gradient( #ffffff, #860909);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nes{
+    background: -webkit-linear-gradient( #ea0407, #7e0607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play1{
+    background: -webkit-linear-gradient( white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sega{
+    background: -webkit-linear-gradient( #ff7300, #ff7300 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.xbox{
+    background: -webkit-linear-gradient( green, #0bce0b );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
